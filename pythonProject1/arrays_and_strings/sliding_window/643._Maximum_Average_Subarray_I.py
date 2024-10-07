@@ -21,8 +21,8 @@ class Solution:
 
 
 if __name__ == "__main__":
+    solution = Solution()
     # nums, k = [1, 12, -5, -6, 50, 3], 4
     nums, k = [5], 1
 
-    solution = Solution()
     print(solution.findMaxAverage(nums, k))
